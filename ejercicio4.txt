@@ -1,0 +1,15 @@
+INICIO
+    LEER calificacion1
+    LEER calificacion2
+    LEER calificacion3
+    promedio = calificacion1 + calificacion2 + calificacion3 / 3
+    SI promedio < 6 ENTONCES
+        ESCRIBE "te van a castigar"
+    SINO
+        SI promedio >= 8.5 ENTONCES
+            ESCRIBE "te ganaste un premio"
+        SINO   
+            ESCRIBE "te salvaste y no obtuviste un premio"
+        FIN-SI
+    FIN-SI
+FIN

@@ -1,0 +1,12 @@
+INICIO
+    Leer nivel
+    SI nivel < 10 entonces
+        ESCRIBE "soy aprendiz"
+    SINO    
+        SI nivel < 20
+            ESCRIBE "soy acrobata"
+        SINO
+            ESCRIBE "soy ninja"
+        FIN-SI
+    FIN-SI
+FIN

@@ -1,0 +1,16 @@
+INICIO
+    LEER dia
+    SI dia === "lunes" || dia === "miercoles" ENTONCES
+        ESCRIBE "Voy a Historia"
+    SINO
+        SI dia === "martes" ENTONCES
+            ESCRIBE "Voy a Natacion"
+        SINO
+            SI dia === "jueves" ENTONCES
+                ESCRIBE "Voy a Esgrima"
+            SINO
+                ESCRIBE "Descanso"
+            FIN-SI
+        FIN-SI
+    FIN-SI
+FIN

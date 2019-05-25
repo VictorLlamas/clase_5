@@ -1,0 +1,13 @@
+INICIO
+    LEER nombre
+    LEER contrasena
+    SI nombre === "victor" ENTONCES
+        SI contrasena === "damecomida" ENTONCES
+            ESCRIBE "Tienes acceso"
+        SINO
+            ESCRIBE "Contrasena incorrecta"
+        FIN-SI
+    SINO 
+        ESCRIBE "Usuario incorrecto"
+    FIN-SI
+FIN

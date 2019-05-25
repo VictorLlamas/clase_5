@@ -1,0 +1,8 @@
+INICIO
+    LEER hambre
+    SI hambre ENTONCES
+        ESCRIBE "Tengo hambre"
+    SINO
+        ESCRIBE "Estoy feliz"
+    FIN-SI
+FIN

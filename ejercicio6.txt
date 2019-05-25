@@ -1,0 +1,10 @@
+INICIO
+    LEER shot1
+    LEER shot2
+    LEER shot3
+    SI shot1 === shot2 || shot1 === shot3 || shot2 === shot3 ENTONCES
+        ESCRIBE "Ya Ganaste"
+    SINO
+        ESCRIBE "Perdiste Looser"
+    FIN-SI
+FIN
